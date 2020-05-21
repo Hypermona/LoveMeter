@@ -8,7 +8,7 @@ window.addEventListener('load',()=>{
             lvv= 21;
             description.textContent= "Just an Attraction";
         }
-        else if (num >= 75 && num < 80){
+        else if (num >= 75 && num <= 80){
             lvv = 53;
             description.textContent = "Infatuation";
         }

@@ -1,0 +1,59 @@
+@import "heart.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(255, 235, 210);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+   margin-top: 30px;
+}
+.cont{
+min-height: 50vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end; 
+flex-wrap: wrap;
+}
+.block1,.block2{
+height: 200px;
+width: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: tomato;
+float: left;
+margin: 10px;
+color: white;
+-webkit-box-shadow: -28px 42px 44px -27px rgba(0,0,0,0.63);
+-moz-box-shadow: -28px 42px 44px -27px rgba(0,0,0,0.63);
+box-shadow: -28px 42px 44px -27px rgba(0,0,0,0.63);
+}
+.half{
+-webkit-box-shadow: -28px 42px 44px -27px rgba(0,0,0,0.63);
+-moz-box-shadow: -28px 42px 44px -27px rgba(0,0,0,0.63);
+box-shadow: -28px 42px 44px -27px rgba(0,0,0,0.63);
+margin-top: 40px;
+    width: 25%;
+}
+#desc{
+    padding: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .half{
+    width: 40%;
+}
+.heart{
+    margin-top: -180px;
+}
+}
+.circles{
+    margin-top: 3%;
+}

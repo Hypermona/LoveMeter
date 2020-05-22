@@ -15,17 +15,19 @@
     <div class="cont">
         <div class="block1 form-group">
           <label for="yourName">Enter Your Name</label>
-          <input type="text" placeholder="Your Name" id="yourName" required>
+          <input type="text" name="yourName" placeholder="Your Name" id="yourName" required>
         </div>
         <div class="heart"></div>
         <div class="heart1"></div>
         <div class="block2">
+        <form name="contact" method="post" data-netlify="true">
         <label for="crushName">Enter Your Crush Name
-        <input type="text" placeholder="Crush Name" id="crushName" required>
+        <input type="text" name="crushName" placeholder="Crush Name" id="crushName" required>
         </label>
         </div>   
     </div>
 <button type="button" id="gen"class="btn btn-success btn-lg half">Generate</button>
+        </form>
         <div class="circles" id="love"></div>
         <h3 id="desc"></h3>
     <script src="index.js"></script>

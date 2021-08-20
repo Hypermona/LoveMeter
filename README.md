@@ -1,2 +1,2 @@
 # LoveMeter
-![Screenshot](screenshot (102).png)
+![Screenshot](Screenshot (102).png)
